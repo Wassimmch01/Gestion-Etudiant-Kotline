@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.gestiond.StudentListFragment"
+        android:label="Liste des étudiants" >
+        <action
+            android:id="@+id/action_studentListFragment_to_addStudentFragment"
+            app:destination="@id/addStudentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.gestiond.AddStudentFragment"
+        android:label="Ajouter / Modifier étudiant" />
+
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54650631956",
+    "project_id": "gestion-etudiants-45c42",
+    "storage_bucket": "gestion-etudiants-45c42.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54650631956:android:aa98f3a51032146027f401",
+        "android_client_info": {
+          "package_name": "com.example.gestiond"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9or_Zbe8os8mfZdlNH8N27Xva_B23rew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
